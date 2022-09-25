@@ -1,0 +1,18 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+main {
+  padding: 2%;
+  flex-grow: 1;
+}
+
+.loader {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  left: 50%;
+  margin: 30px 0px;
+}

@@ -1,0 +1,16 @@
+.user-image-card {
+  display: flex;
+  margin-right: 20px;
+}
+
+.user-image-card img {
+  width: 280px;
+}
+
+.user-basic-section > div {
+  margin-bottom: 12px;
+}
+
+.user-additional-details-section {
+  margin-top: 10px;
+}

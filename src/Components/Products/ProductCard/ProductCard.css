@@ -1,0 +1,25 @@
+.product-card {
+  height: 350px;
+  width: 300px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-card .image {
+  margin: 5px;
+  height: 200px;
+  background-size: contain;
+}
+
+.product-card .content {
+  padding: 10px;
+}
+
+.product-card .actions {
+  justify-content: flex-end;
+}

@@ -1,0 +1,16 @@
+.header .MuiToolbar-root {
+  justify-content: space-between;
+}
+
+.header .title {
+  display: flex;
+  align-items: center;
+}
+
+.header .title svg {
+  margin-right: 5px;
+}
+
+.header .controls button {
+  margin: 0px 8px;
+}

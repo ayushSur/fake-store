@@ -1,0 +1,29 @@
+.Users-container .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Users-container .header h5 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Users-container .header .actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.MuiTableCell-head {
+  font-weight: bold;
+}
+
+.user-image-name {
+  display: flex;
+  align-items: center;
+}
+
+.user-image-name span:first-child {
+  margin-right: 5px;
+}

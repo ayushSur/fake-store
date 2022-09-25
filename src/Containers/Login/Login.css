@@ -1,0 +1,39 @@
+.login {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  width: 70%;
+  padding: 20px 50px;
+  transition: height 0.2s;
+}
+
+.form.signin {
+  height: 370px;
+}
+.form.signup {
+  height: 450px;
+}
+
+.login .form > * {
+  margin: 5px 0px;
+}
+
+.login .form .input {
+  max-width: 350px;
+  width: 80%;
+}
+
+.credsBox {
+  margin: 20px;
+  padding: 20px;
+}

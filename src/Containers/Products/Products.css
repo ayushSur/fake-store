@@ -1,0 +1,30 @@
+.Products-container .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Products-container .header h5 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Products-container .header .actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filter-icon {
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+}
+
+.MuiAutocomplete-option {
+  text-transform: capitalize !important;
+}
+
+.product-grid {
+  padding: 10px 0px;
+}

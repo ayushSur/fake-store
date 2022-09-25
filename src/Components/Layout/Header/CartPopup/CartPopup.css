@@ -1,0 +1,26 @@
+.cart-popup {
+  max-height: 200px;
+  width: 300px;
+}
+
+.cart-popup-item {
+  padding: 2px;
+  margin: 2px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-popup-item:last-child {
+  border-bottom: unset;
+}
+
+.cart-popup-item span {
+  flex-grow: 1;
+  font-size: 13px;
+}
+
+.cart-popup-item .MuiAvatar-img {
+  object-fit: contain;
+}
