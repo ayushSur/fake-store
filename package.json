@@ -1,6 +1,7 @@
 {
   "name": "fake-store",
   "version": "0.1.0",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -20,7 +21,9 @@
     "redux-thunk": "^2.3.0",
     "web-vitals": "^1.1.0"
   },
-  "scripts": {
+  "scripts": { 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
@@ -48,6 +51,7 @@
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.6.2",
+    "gh-pages": "^4.0.0",
     "redux-mock-store": "^1.5.4"
   },
   "jest": {
